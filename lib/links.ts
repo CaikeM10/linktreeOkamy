@@ -31,4 +31,4 @@ export const bioLinks: BioLink[] = [
 
 export const instagramUrl = "https://instagram.com/okamysushibar";
 
-export const logoSrc = "/images/okamy-logo.png";
+export const logoSrc = "/images/okamy-logo.webp";

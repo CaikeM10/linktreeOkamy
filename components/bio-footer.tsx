@@ -23,7 +23,7 @@ function InstagramIcon({ className }: { className?: string }) {
 
 export function BioFooter() {
   return (
-    <footer className="flex flex-col items-center gap-4 pb-8 pt-3 text-center">
+    <footer className="flex flex-col items-center gap-4 pb-12 pt-3 text-center">
       {/* Divisor decorativo */}
       <div className="flex w-full items-center gap-4" aria-hidden="true">
         <span className="h-px flex-1 bg-foreground/15" />
@@ -56,7 +56,7 @@ export function BioFooter() {
       </p>
 
       {/* Crédito do desenvolvedor */}
-      <p className="text-xs uppercase tracking-[0.21em] text-muted-foreground">
+      <p className="text-xs uppercase tracking-[0.15em] text-muted-foreground">
         Desenvolvido por{" "}
         <a
           href="https://www.caikemarinho.com"
