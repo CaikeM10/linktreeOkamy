@@ -28,7 +28,7 @@ export function BioHeader() {
 
       {/* Logo oficial */}
       <div
-        className="relative z-10 w-full max-w-64 overflow-hidden bg-background sm:max-w-72"
+        className="relative z-10 w-full max-w-64 overflow-hidden bg-white sm:max-w-72"
         style={{ aspectRatio: `${width} / ${height}` }}
       >
         <Image

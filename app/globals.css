@@ -19,24 +19,18 @@
   --radius-xl: calc(var(--radius) * 1.2);
   --radius-2xl: calc(var(--radius) * 1.6);
 }
-
 :root {
   color-scheme: light;
-
   --background: #ffffff;
   --foreground: #0a0a0a;
-
   --primary: #ff1c26;
   --primary-hover: #e0101a;
   --primary-foreground: #ffffff;
-
   --muted-foreground: #5c5c5a;
   --border: rgb(10 10 10 / 0.15);
   --ring: #ff1c26;
-
   --radius: 0.75rem;
 }
-
 @layer base {
   * {
     @apply border-border;

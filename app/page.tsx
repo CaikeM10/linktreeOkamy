@@ -5,7 +5,7 @@ import { bioLinks } from "@/lib/links";
 
 export default function Page() {
   return (
-    <main className="relative mx-auto flex min-h-dvh w-full max-w-[480px] flex-col overflow-hidden px-6 sm:px-8">
+    <main className="relative mx-auto flex min-h-dvh w-full max-w-[480px] flex-col overflow-hidden bg-white px-6 sm:px-8">
       <BioHeader />
 
       <nav aria-label="Links da Okamy Sushi Bar" className="pb-5">
