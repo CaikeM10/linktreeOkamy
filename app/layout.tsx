@@ -3,7 +3,11 @@ import type { Metadata, Viewport } from "next";
 import { DM_Sans, Shippori_Mincho } from "next/font/google";
 import "./globals.css";
 
-const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-dm-sans" });
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-dm-sans",
+});
+
 const shippori = Shippori_Mincho({
   subsets: ["latin"],
   weight: ["500", "600"],
@@ -11,23 +15,25 @@ const shippori = Shippori_Mincho({
 });
 
 export const metadata: Metadata = {
-  title: "Okamy Sushi Bar · Poranga, CE",
+  title: "Okamy Sushi Bar | Poranga, CE",
   description:
     "Sushi bar em Poranga, Ceará. Veja o cardápio, fale no WhatsApp e saiba como chegar.",
-  generator: "v0.app",
+  applicationName: "Okamy Sushi Bar",
   icons: {
-    icon: [
-      { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: light)" },
-      { url: "/icon-dark-32x32.png", media: "(prefers-color-scheme: dark)" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/favicon-okamy.png",
+  },
+  openGraph: {
+    title: "Okamy Sushi Bar | Poranga, CE",
+    description:
+      "Seu próximo momento especial começa aqui. Confira nosso cardápio e entre em contato.",
+    type: "website",
+    locale: "pt_BR",
   },
 };
 
 export const viewport: Viewport = {
   colorScheme: "light",
-  themeColor: "#F5F5F2",
+  themeColor: "#FFFFFF",
 };
 
 export default function RootLayout({
