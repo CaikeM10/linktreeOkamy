@@ -51,13 +51,13 @@ export function BioFooter() {
 
       {/* Assinatura da marca */}
       <p className="text-xs font-medium uppercase tracking-[0.24em]">
-        <span className="text-black">Okamy</span>{" "}
-        <span className="text-primary">Sushi Bar</span>
+        <span className="text-black italic">Okamy</span>{" "}
+        <span className="text-primary italic">Sushi Bar</span>
       </p>
-
+      <br />
       {/* Crédito do desenvolvedor */}
       <p className="text-xs uppercase tracking-[0.15em] text-muted-foreground">
-        Desenvolvido por{" "}
+        Desenvolvimento por{" "}
         <a
           href="https://www.caikemarinho.com"
           target="_blank"
